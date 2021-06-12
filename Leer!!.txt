@@ -1,0 +1,9 @@
+Ejercicios de Arrays son del repositorio del profe:
+
+https://github.com/adrianmdp/ada8-frontend/tree/main/ejercicios/arrays
+
+a su vez son los mismos que estan en el respositorio de Ada:
+
+https://github.com/Ada-IT/ejercicios-frontend/tree/master/modulo-4
+
+Y a su vez son los mismos ejercicios de Mumuki
