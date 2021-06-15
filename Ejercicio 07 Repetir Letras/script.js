@@ -10,7 +10,7 @@
 const repetirLetras = (palabra,cantidad) => {
     let letras = ('');
     for (let i=0 ; i<=palabra.length ; i++) {
-        for (let j=0 ; j<=cantidad ; j++)
+        for (let j=0 ; j<cantidad ; j++)
             letras = letras + palabra.charAt(i);
     }
     return letras 
