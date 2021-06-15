@@ -8,17 +8,9 @@
 // repetirLetras('basta', 1) // 'basta'
 
 const repetirLetras = (palabra, cantidad) =>{
-
-    // let palabraArray = Array.from(palabra);
-
-    let palabrasRepetidas = palabra.repeat(cantidad)
-
-
-    return palabrasRepetidas
-    
-
-
-
+    for(let i=0; 0 < palabra.length ; i++ ){
+        
+    }
 
 }
 
