@@ -7,11 +7,13 @@
 // repetirLetras('ah!', 5) // 'aaaaahhhhh!!!!!'
 // repetirLetras('basta', 1) // 'basta'
 
-const repetirLetras = (palabra, cantidad) =>{
-    for(let i=0; 0 < palabra.length ; i++ ){
-        
+const repetirLetras = (palabra,cantidad) => {
+    let letras = ('');
+    for (let i=0 ; i<=palabra.length ; i++) {
+        for (let j=0 ; j<=cantidad ; j++)
+            letras = letras + palabra.charAt(i);
     }
-
+    return letras 
 }
 
 console.log(repetirLetras('hola', 2));
