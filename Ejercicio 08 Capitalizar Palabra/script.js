@@ -5,4 +5,15 @@
 
 // capitalizarPalabras('Esto es un título') // 'Esto Es Un Título'
 // capitalizarPalabras('había una vez') // 'Había Una Vez'
-// makeTitle('OMG') // 'OMG'
+// capitalizarPalabras('OMG') // 'OMG'
+
+const capitalizarPalabras = (string) => {
+
+    return string[0].toUpperCase() + string.slice(1)
+
+
+}
+
+console.log(capitalizarPalabras('Esto es un título'));
+console.log(capitalizarPalabras('había una vez'));
+console.log(capitalizarPalabras('OMG'));
