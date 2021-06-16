@@ -16,7 +16,7 @@ const repetirLetras = (palabra,cantidad) => {
     return letras 
 }
 
-console.log(repetirLetras('hola', 2));
+console.log(repetirLetras('hola', 3));
 console.log(repetirLetras('ada', 3));
 console.log(repetirLetras('ah!', 5));
 console.log(repetirLetras('basta', 1));
