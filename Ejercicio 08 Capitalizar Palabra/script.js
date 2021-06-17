@@ -8,12 +8,14 @@
 // capitalizarPalabras('OMG') // 'OMG'
 
 const capitalizarPalabras = (string) => {
-
-    return string[0].toUpperCase() + string.slice(1)
-
-
+    const arr = string.split(" ")
+    for (let i = 0; i < arr.length; i++) {
+        arr[i] = arr[i].charAt(0).toUpperCase() + arr[i].slice(1);
+    }
+    const fraseFinal = arr.join(" ");
+    return fraseFinal
 }
 
-console.log(capitalizarPalabras('Esto es un título'));
+console.log(capitalizarPalabras('esto es un título'));
 console.log(capitalizarPalabras('había una vez'));
 console.log(capitalizarPalabras('OMG'));
